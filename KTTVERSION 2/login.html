@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    #about{
+        margin-top: 40px;
+    }
+
+    #about .card, #about .card-stacked {
+        padding-left: 20px;
+        border-radius: 50px;
+    }
+
+    a {
+        font-size: 20px;
+        color:yellow;
+    }
+
+    #saveButton:hover {
+        opacity: 0.8;
+    }
+    nav{
+    padding-bottom: 175px;
+    background-color: black;
+    }
+    .tech{
+     background-image: url('img/bg13.jpg');  
+    }
+
+    body{
+        background: black;
+        background-image: url('img/logo.png');
+
+    }  </style>
+   
+  </head>
+  <body >
+ 
+<nav>
+  <div class="nav-wrapper" style="background-color: blue; text-decoration-color: yellow;">
+    <a href="#!" class="brand-logo" style="margin-left: 5%;"><img src="img/logo.png" width="150px" height="100%"></a>
+     <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">dehaze</i>
+    <ul class="right hide-on-med-and-down" style="margin-top:3%;margin-right: 5%;">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="login.html">Login</a></li>   
+        <li><a href="workshop.html">Workshop</a></li>
+        <li><a class="nav" id="1" href="index.html">contact us</a></li>    </ul>
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="index.html">HOME</a></li>
+    
+      <li><a href="workshop.html">Workshop</a></li>
+   <li><a href="login.html">Login</a></li>   
+   <li><a class="nav" id="1" href="index.html">contact us</a></li>    </ul>    
+    
+  </div>
+</nav>
+    <div class="container">
+      <div class="card" style="margin-left: 20%; margin-right: 20%" >
+        <div class="col offset-m10 s12 m4">
+          <center>
+        <h1>LOGIN</h1>
+        <form action="" style="margin-left: 10%; margin-right: 10%">
+            <input type="email" name = "email" placeholder="Email">
+            <input type="password" name = "password" placeholder="Password">
+            <button class="btn waves-effect waves-light " type="submit" name="action" style="margin-top: 40px; margin-bottom: 50px; ">LOGIN
+                <i class="material-icons right">send</i>
+              </button>
+        </form>
+      </center>
+    </div>
+  </div>
+  </div>
+<script>  document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });</script>
+</body>
+</html>

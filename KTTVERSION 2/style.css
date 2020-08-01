@@ -1,0 +1,292 @@
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0px;
+  
+  background-image: url("img/img2.png");
+   background-attachment: fixed;
+   background-size:cover;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background:#0c10d6;
+  color: #35424a;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #f4f4f4 3px solid;
+}
+header a {
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+  margin-right: 10px;
+}
+a:hover {
+  color: red;
+}
+ul li a:hover {
+  color: red;
+}
+ul li .dd {
+  position: absolute;
+  background: blue;
+}
+ul li br {
+  display: block;
+  height: 10px;
+}
+ul li .dd ul li {
+
+  float: left;
+  display: none;
+  position: relative;
+  padding: 5px;
+}
+ul li:hover ul li {
+  display: inline;
+  clear: both;
+  right: 20;
+}
+
+.logo {
+  margin-right: 550px;
+}
+.home {
+  
+  text-align: center;
+  color: yellow;
+}
+.home a {
+  color: yellow;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-collapse: separate;
+  border-spacing:15px;
+  border: 2px solid blue;
+
+    
+}
+.contactPage {
+  
+  text-align: center;
+ color: yellow;
+}
+
+.contactPage:h1 {
+    color: yellow;
+}
+.contactPage:h2 {
+    color: yellow;
+}
+.form {
+  margin-right: 20px;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.colm1 div {
+  text-align: center;
+}
+.colm1 {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+}
+img {
+  padding-left: 10px;
+  width: 150px;
+  height: 50px;
+}
+.learn {
+  
+  text-align: center;
+  color: yellow;
+}
+.learn a {
+  color: yellow;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-collapse: separate;
+  border-spacing:15px;
+  border: 2px solid blue;
+  
+    
+}
+.lemg:ul {text-align=left}
+.learn img {
+  padding-top: 0px;
+  width: 200px;
+  height:200px;
+}
+
+.lemg img {
+  padding-top: 0px;
+  margin-left: 100px; 
+  width: 250px;
+  height:250px;
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 800px) {
+  .column div {
+  text-align: center;
+}
+ .column{
+  display: grid;
+
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto;
+}
+}
+.
+/* Add some shadows to create a card effect */
+
+.card {
+  box-shadow: 4px 8px solid yellow ;
+}
+.card img {
+  padding-top: 0px;
+  width: 200px;
+  height:200px;
+}
+/* Some left and right padding inside the row-container */
+.row-container {
+  padding: 0 16px;
+
+}
+
+/* Clear floats */
+.row-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: yellow;
+}
+
+.button {
+  border: none;
+ 
+  padding: 6px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-container {
+    background-color: #fff;
+    box-shadow: 20px 20px 30px #111;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+h1{
+    color: blue;
+}  
+h2 {
+    color: yellow;
+}
+
+
+.login-container input {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 2px solid blue;
+   
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login-container button {
+    width: 370px;
+    height: 45px;
+    background: #fff;
+    border: 2px solid  blue;
+    font-size: 20px;
+    
+    color:  #09090a;
+}
+
+.login-container button:hover {
+    cursor: pointer;
+    background:  red;
+    color: #fff;
+}
+
